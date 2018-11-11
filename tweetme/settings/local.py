@@ -138,7 +138,7 @@ STATICFILES_DIRS = [
 
 
 # will be served
-STATIC_ROOT =  os.path.join(os.path.dirname(BASE_DIR), "static-serve") 
+STATIC_ROOT =  os.path.join(os.path.dirname(BASE_DIR), "whitenoise.storage.CompressedManifestStaticFilesStorage") 
 
 
 
