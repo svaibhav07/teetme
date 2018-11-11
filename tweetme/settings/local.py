@@ -133,7 +133,7 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     # will not be served, long term storage
-    os.path.join(BASE_DIR, "static-storage"),
+    os.path.join(BASE_DIR, "whitenoise.storage.CompressedManifestStaticFilesStorage"),
 ]
 
 
